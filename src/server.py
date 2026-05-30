@@ -6,7 +6,7 @@ from mcp.server.fastmcp import FastMCP
 
 mcp = FastMCP("RawTherapee")
 
-RT_CLI = shutil.which("rawtherapee-cli") or r"C:\Program Files\RawTherapee\rawtherapee-cli.exe"
+RT_CLI = shutil.which("rawtherapee-cli") or r"C:\Program Files\RawTherapee\5.12\rawtherapee-cli.exe"
 
 
 def _run(cmd: list[str], timeout: int = 300) -> dict:
